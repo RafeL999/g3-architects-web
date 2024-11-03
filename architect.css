@@ -1,0 +1,60 @@
+/* Work Sans font (bold 700) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,800;1,75..100,800&family=Work+Sans:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,800;1,75..100,800&family=Work+Sans:ital,wght@0,500;1,500&display=swap');
+
+/*Shared styles*/
+*{
+    font-family: "Work Sans", sans-serif;
+}
+.btn-primary{
+    
+}
+
+/* For header */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 45px;
+}
+
+nav > ul{
+    display: flex;
+    font-weight: 700px;
+    color: #131313;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Banner styles */
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
